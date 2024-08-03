@@ -1,117 +1,109 @@
+/*Estilo para toda Página*/
 * {
-    margin: 0;
-    box-sizing: border-box;
-    
-  }
+   margin: 0; /* sem margens*/
+  box-sizing: border-box; /* Inclui bordas e preenchimento na largura e altura */
+}
 
+/*Estilo para o cabeçalho*/
 header {
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 220px;
-
+  background-repeat: no-repeat; /*Para não repetir a*/
+  display: flex;
+  justify-content: center;
+  margin-bottom: 220px;
 }
 
+/*Estilo para o corpo da Página*/
 body {
-    
-    background-image: url('/imagens_perfil/fundo.jpg');
-    color: #f1f5f8;
-    
+  background-image: url('/imagens_perfil/fundo.jpg');
 }
 
+/*Estilo para o conteudo*/
 main{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-
-
-label {
-    font-size: 15px;
-    color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 /* Estilo para o formulário */
 #formulario {
-    display: flex; 
-    flex-direction: column; /* Dispor os elementos em coluna */
-    align-items: center; /* Centraliza os elementos dentro do formulário */
-    padding: 20px; /* Preenchimento interno */
-    border: 1px solid #ccc; /* Borda ao redor do formulário */
-    border-radius: 8px; /* Canto arredondado */
-    background-color: #f9f9f9; /* Cor de fundo do formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para o formulário */
-  }
+  display: flex; 
+  flex-direction: column; /* Dispor os elementos em coluna */
+  align-items: center; /* Centraliza os elementos dentro do formulário */
+  padding: 20px; /* Preenchimento interno */
+  border: 1px solid #ccc; /* Borda ao redor do formulário */
+  border-radius: 8px; /* Canto arredondado */
+  background-color: #f9f9f9; /* Cor de fundo do formulário */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para o formulário */  
+}
   
   /* Estilo para os elementos div dentro do formulário */
-  #formulario div {
-    margin-bottom: 15px; /* Espaçamento inferior entre os elementos */
-    width: 100%; /* Garante que as divs ocupem a largura total do formulário */
-  }
+#formulario div {
+  margin-bottom: 15px; /* Espaçamento inferior entre os elementos */
+  width: 100%; /* Garante que as divs ocupem a largura total do formulário */
+}
   
   /* Estilo para os inputs dentro do formulário */
-  #formulario input {
-    width: 100%; /* Garante que os inputs ocupem a largura total da div */
-    padding: 10px; /* Preenchimento interno */
-    border: 1px solid #ccc; /* Borda dos inputs */
-    border-radius: 4px; /* Canto arredondado */
-    box-sizing: border-box; /* Inclui bordas e preenchimento na largura e altura */
-  }
-
-  #lembrar{
-    display: flex;
-  }
-
+#formulario input {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+}
   /* Estilo para o botão dentro do formulário */
-  #formulario button {
-    width: 100%; /* Garante que o botão ocupe a largura total da div */
-    padding: 10px; /* Preenchimento interno */
-    border: none; /* Remove a borda padrão do botão */
-    border-radius: 4px; /* Canto arredondado */
-    background-color: #007bff; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto do botão */
-    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
-    text-decoration: none; /* Remove sublinhado do link */
-  }
+ #formulario button {
+  width: 100%; 
+  padding: 10px; 
+  border: none; /* Remove a borda padrão do botão */
+  border-radius: 4px; 
+  background-color: #007bff; 
+  color: #fff; 
+  cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+  text-decoration: none; /* Remove sublinhado do link */
+}
   
-  #formulario button a {
-    color: #fff; /* Cor do texto do link dentro do botão */
-    text-decoration: none; /* Remove sublinhado do link */
-    display: block; /* Faz o link ocupar toda a área do botão */
-    width: 100%;
-    height: 100%;
-  }
-  X
-  #formulario button:hover {
-    background-color: #0056b3; /* Cor de fundo do botão ao passar o cursor sobre ele */
-  }
+#formulario button a {
+  color: #fff; 
+  text-decoration: none; 
+  display: block; /* Faz o link ocupar toda a área do botão */
+  width: 100%;
+  height: 100%; /*Garante que o bootão ocupe 100% da altura*/
+}
+  
+
   
   /* Estilo para o h4 dentro do formulário */
-  #formulario h4 {
-    text-align: center; /* Centraliza o texto */
-    margin-top: 20px; /* Espaçamento superior */
-  }
+#formulario h4 {
+  text-align: center; 
+  margin-top: 20px; /* Espaçamento superior */
+}
   
   /* Estilo para os links dentro do h4 */
-  #formulario h4 a {
-    color: #007bff; /* Cor do link */
-    text-decoration: none; /* Remove sublinhado do link */
-    text-align: center;
-  }
-  
-  #formulario h4 a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o cursor sobre o link */
-    
-  }
+#formulario a {
+  color: #007bff; 
+  text-decoration: none; 
+  text-align: center;
+}
 
-  h2{
-    font-size: 20px;
-    color: black;
-    margin-bottom: 15px;
-  }
+/*Estilo para as fontes do formulario*/
+label {
+  font-size: 17px;
+  color: black;
+}
 
- footer{
-    display: flex;
-    justify-content: flex-start;
- }
+h2{
+  font-size: 20px;
+  color: black;
+   margin-bottom: 15px;
+}
+
+footer{
+  bottom: 0;
+  position: fixed;
+  width: 90%;
+}
+
+footer h5 {
+  color: #ccc;
+}
+ 

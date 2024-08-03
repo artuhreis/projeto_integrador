@@ -121,7 +121,7 @@
       
       }
     .produto-1 .card-imagem{
-        background-image: url(imagem/anne.jpeg)
+        background-image: url(imagens_produtos/anne.jpeg)
         }
     .produto-1 .card-imagem:hover{
     background-image:url(imagem/anne_sinopse.jpeg);

@@ -7,7 +7,8 @@
 
 body{
     display: flex;
-    background-image: url('/imagens_perfil/fundo.jpg');
+    background-image: url('/projeto_integrador/imagens/perfil/fundo.jpg');
+    
     color: #f1f5f8;
 }
 
@@ -16,7 +17,6 @@ h1{
     justify-content: center;
     align-items: center;
 }
-
 
 .title{
     display: flex;

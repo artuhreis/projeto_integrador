@@ -3,54 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css_cadastro/cadastro.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
     <title>Cadastre-se</title>
     
 </head>
 <body>
-    <header>
-        <img src="./imagens_layout/logo.png" alt="Logo PlayFlix" >   
-    </header>
 
-    <main>
-        <form id="formulario">
-            <div>
-                <label for="nomeCompleto">Nome:</label>
-                <input type="text" id="nomeCompleto" placeholder="Informe seu Nome Completo"> 
-            </div>
+    <div class = cabecalho>
+        <header class="menu-header">
+            <img src="./imagens/layout/logo.png" alt="Logo PlayFlix" >   
+        </header>
 
-            <div>
-                <label for="emailFornecido">E-mail:</label>
-                <input type="email" id="emailFornecido" placeholder="Informe seu E-mail">  
-            </div>
+        <div class="botao_cabecalho">
+            <button class="botao"> <a href="./index.html">Sair</a></button>
+        </div>
+    </div>
+    
+    
 
-            <div>
-                <label for="cpfFornecido">CPF: </label>
-                <input type="inteiro" id="cpfFornecido" placeholder="Informe seu CPF">
-            </div>
+    <div class="formulario">
+        <main>
+            <form >
+                <div class="cadastro">
+                    <label for="nomeCompleto">Nome  </label>
+                    <input type="text" id="nomeCompleto" placeholder="Digite seu Nome Completo"> <br>
 
-            <div>
-                <label for="numeroTelefone">Telefone: </label>
-                <input type="tel" id="numeroTelefone" placeholder="Informe seu Número de Telefone">
-            </div>
+                    <label for="emailFornecido">E-mail:</label>
+                    <input type="email" id="emailFornecido" placeholder="Digite seu E-mail"> <br>
 
-            <div>
-                <label for="dataNascimento">Data de Nascimento:</label>
-                <input type="date" id="dataNascimento" placeholder="Informe a Data do seu Nascimento">
-            </div>
+                    <label for="cpfFornecido">CPF: </label>
+                    <input type="inteiro" id="cpfFornecido" placeholder="Informe seu CPF"> <br>
 
-            <div>
-                <label for="senha">Crie uma senha: </label>
-                <input type="password" id="senha" placeholder="Crie uma Senha">
-            </div>
+                    <label for="numeroTelefone">Telefone: </label>
+                    <input type="tel" id="numeroTelefone" placeholder="Infrome seu Telefone"> <br>
 
-            <div>
-                <button><a href="./index.html">Cadastre-se</a></button> 
-            </div>
-        </form>
-    </main>
+                    <label for="dataNascimento">Data de Nascimento:</label>
+                    <input type="date" id="dataNascimento"> <br>
+                    
+                    <label for="senha">Crie uma senha: </label>
+                    <input type="password" id="senha" placeholder="Crie uma senha"> <br>
 
-    <footer>
+                    <button><a href="./produtos.html">Cadastre-se</a></button> 
+                    
+                </div>
+            </form>
+        </main>
+    </div>
+   
+
+    <footer class="rodape">
         <h5>
             Para Mais informações, entre em contato: <br>
 

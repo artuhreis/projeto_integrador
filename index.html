@@ -3,54 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css_index/index.css">
+    <link rel="stylesheet" href="./css/index.css">
     <title>PlayFlix</title>
 </head>
 <body>
-    <header>
-        <img src="./imagens_layout/logo.png" alt="Logo PlayFlix" >   
+
+    <div class="cabecalho">
+     <header class="menu-header">
+        <img src="./imagens/layout/logo.png" alt="Logo PlayFlix" >   
+        
     </header>
+    <div class="botao_cabecalho">
+        <button class="botao"> <a href="./login.html">Login</a></button>
+        <button class="botao"> <a href="./cadastro.html">cadastre-se</a></button>
+        <br>
+        <p>Esqueceu a sua senha?</p>
+    </div>
+    </div>
 
-    <main>
-        <form id="formulario">
-            <div>
-                <label for="emailCadastrado">E-mail:</label>
-                <input type="email" id="emailCadastrado"  placeholder="Digite seu email">
-            </div>
-
-            <div >
-                <label for="senha">Senha:</label>
-                <input type="password" placeholder="Digite sua senha">
-            </div>
-
-            <div id="lembra">
-                <label for="lembrar">Lembrar-se de mim</label>
-                <input type="checkbox" name="lembrarUsuario" id="lembra">
-            </div>
 
             <div>
-                <button><a href="./perfil.html">Entrar</a></button>
-                
-            </div>
-
-            <h2>
-                Ou
-            </h2>
+            <p>filmes</p>
             
-            <div>
-                <button><a href="./cadastro.html">Clique e Assine Agora</a></button>
             </div>
+  
+         <main class="container-carrosel">
+         <p>filmes</p>
+           <div class="carousel" id="carousel1">
+        <div class="carousel-inner" >
+            <div class="carousel-item active" >
+                <img src="./imagens/carrosel/imagem1.jpg" alt="Imagem 1" class="imagem_carrosel">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/carrosel/imagem2.webp" alt="Imagem 2" class="imagem_carrosel">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/carrosel/vingadores.png" alt="Imagem 3" class="imagem_carrosel">
+            </div>
+        </div>
+        <button class="carousel-control prev" onclick="prevSlide('carousel1')">&#10094;</button>
+        <button class="carousel-control next" onclick="nextSlide('carousel1')">&#10095;</button>
+    </div>
+            <!-------carrosel 2-------->
+       <p>animes</p>
+     <div class="carousel" id="carousel2">
+        <div class="carousel-inner" >
+            <div class="carousel-item active" >
+                <img src="./imagens/carrosel/naruto.jpg" alt="Imagem 1" class="imagem_carrosel">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/carrosel/one_piece.png" alt="Imagem 2" class="imagem_carrosel">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/carrosel/demon-slayer-.webp" alt="Imagem 3" class="imagem_carrosel">
+            </div>
+        </div>
+        <button class="carousel-control prev" onclick="prevSlide('carousel2')">&#10094;</button>
+        <button class="carousel-control next" onclick="nextSlide('carousel2')">&#10095;</button>
+    </div>
 
-            <div>
-                <h4>
-                     <a href="">Esqueceu a Senha?</a>
-                </h4>
+        <!-------carrosel 2-------->
+    <p>series</p>
+        <div class="carousel" id="carousel3">
+        <div class="carousel-inner" >
+            <div class="carousel-item active" >
+                <img src="./imagens/carrosel/lucifer.webp" alt="Imagem 1" class="imagem_carrosel">
             </div>
-            
-        </form>
-    </main>
+            <div class="carousel-item">
+                <img src="./imagens/carrosel/vandinha.jpg" alt="Imagem 2" class="imagem_carrosel">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/carrosel/lacasadepapel.jpg" alt="Imagem 3" class="imagem_carrosel">
+            </div>
+        </div>
+        <button class="carousel-control prev" onclick="prevSlide('carousel3')">&#10094;</button>
+        <button class="carousel-control next" onclick="nextSlide('carousel3')">&#10095;</button>
+    </div>
     
-    <footer>
+    
+
+    <script src="./javascript/script.js"></script>
+
+
+    <!--------------->
+         </main>
+
+
+   </div>
+   
+    
+    
+    <footer class="rodape">
         <h5>
             Para Mais informações, entre em contato: <br>
 

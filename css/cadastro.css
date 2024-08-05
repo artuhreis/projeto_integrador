@@ -1,0 +1,70 @@
+.rodape{
+    margin-top: 70vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url('/projeto_integrador/imagens/perfil/fundo.jpg');
+    color: #f1f5f8;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    margin-bottom: 220px;
+}
+
+.botao_cabecalho{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    margin-left: auto;
+    height: 100%;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro{
+    color: black;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.cadastro input {
+    color: black;
+    text-align: center;
+    width: 100%
+}
+
+
+
+.botao{
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    background: transparent;
+    color: #f1f5f8;
+    transition: border-color 0.3s ease; /* Suaviza a transição da cor da borda */
+    background-color: #007bff;
+}
+
+.botao a {
+    color: #f1f5f8;
+}
+

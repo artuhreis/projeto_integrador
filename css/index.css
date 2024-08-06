@@ -8,7 +8,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-image: url('/projeto_integrador/imagens/perfil/fundo.jpg');
+    background-image: url('/imagens/perfil/fundo.jpg');
     color: #f1f5f8;
 }
 
@@ -17,11 +17,8 @@ body{
     align-items: center;
     width: 100vw;
     height: 10vh;
-    background: #ff0000;
-
 }
 .botao_cabecalho{
-   
     display: flex;
     justify-content: flex-end;
     align-items: center; 
@@ -37,6 +34,13 @@ body{
     background: transparent;
     color: #f1f5f8;
     transition: border-color 0.3s ease; /* Suaviza a transição da cor da borda */
+    background-color: #007bff;
+    
+}
+
+.botao a{
+    color: #fff;
+    text-decoration: none;
 }
 
 /* Efeito de hover */
@@ -50,8 +54,7 @@ body{
     align-items: center;
     margin-top: 100px;
 }
-.login{
-
+.login {
 }
 .rodape{
     margin-top: 70vh;

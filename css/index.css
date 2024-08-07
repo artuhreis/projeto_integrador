@@ -1,123 +1,124 @@
 /*reset css*/
 * {
-  margin: 0;
-   box-sizing: border-box;
-}
-
-
-body{
-    display: flex;
-    flex-direction: column;
-    background-image: url('/projeto_integrador/imagens/perfil/fundo.jpg');
-    color: #f1f5f8;
-}
-
-.cabecalho{
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    height: 10vh;
-}
-.botao_cabecalho{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; 
-    margin-left: auto;
-    height: 100%;
-    padding-right: 10px;
-    gap: 10px;
-}
-.botao{
-    padding: 10px;
-    margin: auto;
-    border-radius: 10px;
-    background: transparent;
-    color: #f1f5f8;
-    transition: border-color 0.3s ease; /* Suaviza a transição da cor da borda */
-    background-color: #007bff;
-    
-}
-
-.botao a{
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Efeito de hover */
-.botao:hover {
-    border-color: #f1f5f8; /* Muda a cor da borda ao passar o mouse */
-}
-.formulario{
-    background: green;
-     display: flex;
-    justify-content:center;
-    align-items: center;
-    margin-top: 100px;
-}
-.login {
-}
-.rodape{
-    margin-top: 70vh;
-}
-.container-carrosel{
-    display:flex;
-    gap: 10px;
-    margin-top: 200px;
-}
-
-.carousel {
-    position: relative;
-    width: 80%;
-    max-width: 800px;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.carousel-inner {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.carousel-item {
-    min-width: 100%;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.carousel-item img {
-    width: 100%;
-    display: block;
-    border-radius: 10px;
-}
-
-.carousel-control {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    border: none;
-    font-size: 2rem;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 1;
-}
-
-.carousel-control.prev {
-    left: 10px;
-}
-
-.carousel-control.next {
-    right: 10px;
-}
-
-.imagem_carrosel{
-    width: 500px;
-    height: 500px;
-}
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+    margin: 0;
+     box-sizing: border-box;
+  }
+  
+  
+  body{
+      display: flex;
+      flex-direction: column;
+      background-image: url(/imagens/perfil/fundo.jpg);
+      color: #f1f5f8;
+  }
+  
+  .cabecalho{
+      display: flex;
+      align-items: center;
+      width: 100vw;
+      height: 10vh;
+  }
+  .botao_cabecalho{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; 
+      margin-left: auto;
+      height: 100%;
+      padding-right: 10px;
+      gap: 10px;
+  }
+  .botao{
+      padding: 10px;
+      margin: auto;
+      border-radius: 10px;
+      background: transparent;
+      color: #f1f5f8;
+      transition: border-color 0.3s ease; /* Suaviza a transição da cor da borda */
+      background-color: #007bff;
+      
+  }
+  
+  .botao a{
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  /* Efeito de hover */
+  .botao:hover {
+      border-color: #f1f5f8; /* Muda a cor da borda ao passar o mouse */
+  }
+  .formulario{
+      background: green;
+       display: flex;
+      justify-content:center;
+      align-items: center;
+      margin-top: 100px;
+  }
+  .login {
+  }
+  .rodape{
+      margin-top: 70vh;
+  }
+  .container-carrosel{
+      display:flex;
+      gap: 10px;
+      margin-top: 200px;
+  }
+  
+  .carousel {
+      position: relative;
+      width: 80%;
+      max-width: 800px;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-inner {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+      min-width: 100%;
+      transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-item img {
+      width: 100%;
+      display: block;
+      border-radius: 10px;
+  }
+  
+  .carousel-control {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      border: none;
+      font-size: 2rem;
+      cursor: pointer;
+      padding: 10px;
+      z-index: 1;
+  }
+  
+  .carousel-control.prev {
+      left: 10px;
+  }
+  
+  .carousel-control.next {
+      right: 10px;
+  }
+  
+  .imagem_carrosel{
+      width: 500px;
+      height: 500px;
+  }
+  main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  

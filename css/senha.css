@@ -16,7 +16,6 @@ body{
     height: 10vh;
     margin-bottom: 220px;
 }
-
 .botao_cabecalho{
     display: flex;
     justify-content: flex-end;
@@ -27,44 +26,25 @@ body{
     gap: 10px;
 }
 
-
 .formulario{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
-.cadastro {
-    color: black;
+.recuperar{
+    color: #f9f9f9;
     font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 30px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-}
-.cadastro input {
-    color: black;
-    text-align: center;
-    width: 100%
+    
 }
 
-
-
-.botao{
-    padding: 10px;
-    margin: auto;
-    border-radius: 10px;
-    background: transparent;
-    color: #f1f5f8;
-    transition: border-color 0.3s ease; /* Suaviza a transição da cor da borda */
-    background-color: #007bff;
+#continuar {
+    
+    margin-top: 20px;
 }
-
-.botao a {
-    color: #f1f5f8;
-}
-

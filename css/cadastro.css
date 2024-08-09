@@ -33,7 +33,7 @@ body{
     justify-content: center;
 }
 
-.cadastro {
+.cadastro{
     color: black;
     font-size: 18px;
     display: flex;
@@ -46,12 +46,25 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
 }
+
 .cadastro input {
     color: black;
     text-align: center;
-    width: 100%
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
 }
 
+.cadastro button {
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    background: transparent;
+    color: #f1f5f8;
+    transition: border-color 0.3s ease; /* Suaviza a transição da cor da borda */
+    background-color: #007bff;
+    
+} 
 
 
 .botao{
@@ -64,7 +77,8 @@ body{
     background-color: #007bff;
 }
 
-.botao a {
+ a {
     color: #f1f5f8;
+    text-decoration: none;
 }
 

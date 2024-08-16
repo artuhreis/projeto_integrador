@@ -1,6 +1,16 @@
+/*reset css*/
+@font-face {
+   font-family: playflix;
+   src: url(/fonte/BebasNeue-Regular.ttf);
+}
+* {
+  margin: 0;
+   box-sizing: border-box;
+   font-family: playflix;
+}
 
-
-div {
+.filmes{
+    background-color: blue;
     
     margin: 20px;
     padding: 10px;
@@ -15,18 +25,18 @@ body{
 }
 
 div{
-    padding: 20px;
+
+    background-color: aqua;
+    padding: 10px;
   
 }
-.rodape{
-    margin-top: 70vh;
-}
+
 
 .cabecalho{
     display: flex;
     align-items: center;
-    width: 100vw;
-    height: 10vh;
+    width: 500px;
+    height: 5vh;
     margin-bottom: 150px;
 }
 .botao_cabecalho{
@@ -41,4 +51,8 @@ div{
 
 .reveal-img {
     transition: opacity 0.3s ease;
+}
+
+.rodape{
+    margin-top: 20vh;
 }

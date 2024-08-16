@@ -1,7 +1,12 @@
 /*reset css*/
+@font-face {
+   font-family: playflix;
+   src: url(/fonte/BebasNeue-Regular.ttf);
+}
 * {
   margin: 0;
    box-sizing: border-box;
+   font-family: playflix;
 }
 
 

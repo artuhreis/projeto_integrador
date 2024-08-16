@@ -1,5 +1,16 @@
+/*reset css*/
+@font-face {
+   font-family: playflix;
+   src: url(/fonte/BebasNeue-Regular.ttf);
+}
+* {
+  margin: 0;
+   box-sizing: border-box;
+   font-family: playflix;
+}
+
 .rodape{
-    margin-top: 70vh;
+    margin-top: 20vh;
 }
 
 body{
@@ -12,8 +23,8 @@ body{
 .cabecalho{
     display: flex;
     align-items: center;
-    width: 100vw;
-    height: 10vh;
+    width: 500px;
+    height: 5vh;
     margin-bottom: 220px;
 }
 

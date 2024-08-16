@@ -8,7 +8,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-image: url('/imagens/perfil/fundo.jpg');
+    background-image: url('../imagens/perfil/fundo.jpg');
     color: #f1f5f8;
 }
 
@@ -48,12 +48,13 @@ body{
 .botao:hover {
     border-color: #f1f5f8; /* Muda a cor da borda ao passar o mouse */
 }
-.formulario{
-    background: green;
+.formulario {
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content:center;
     align-items: center;
     margin-top: 100px;
+    text-decoration: none;
 }
 .login {
     padding: 20px;
@@ -78,6 +79,20 @@ body{
 .rodape{
     margin-top: 70vh;
 }
+
+.titulo-carousel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+
+
+
 .container-carrosel{
     display:flex;
     gap: 10px;

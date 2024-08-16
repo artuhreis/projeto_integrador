@@ -5,8 +5,8 @@
 body{
     display: flex;
     flex-direction: column;
-    background-image: url('/imagens/perfil/fundo.jpg');
-    color: #f1f5f8;
+    background-image: url('/projeto_integrador/imagens/perfil/fundo.jpg');
+    color: rgba(241, 245, 248, 0.5);
 }
 
 .cabecalho{

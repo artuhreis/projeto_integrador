@@ -1,11 +1,7 @@
-header{
-    background-color: #ff0000;
-}
+
 
 div {
-    border-width: 2px;
-    border-style: ridge;
-    border-color: rgba(255, 94, 0, 0.308);
+    
     margin: 20px;
     padding: 10px;
 }
@@ -15,7 +11,7 @@ ul li {
 }
 
 body{
-    background-color: rgb(214, 243, 245);
+   background-image: url('/projeto_integrador/imagens/perfil/fundo.jpg');
 }
 
 div{
@@ -24,4 +20,25 @@ div{
 }
 .rodape{
     margin-top: 70vh;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    margin-bottom: 150px;
+}
+.botao_cabecalho{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    margin-left: auto;
+    height: 100%;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+.reveal-img {
+    transition: opacity 0.3s ease;
 }

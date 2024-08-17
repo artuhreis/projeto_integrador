@@ -9,10 +9,54 @@
    font-family: playflix;
 }
 
-.filmes{
-    background-color: blue;
+.navbar {
     
-    margin: 20px;
+    padding: 10px 20px;
+    position:relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-logo img {
+    height: 100px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-item {
+    position: relative;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #fd0606;
+}
+
+
+
+
+.filmes{
+    margin-top: 100px;
     padding: 10px;
 }
 
@@ -21,12 +65,12 @@ ul li {
 }
 
 body{
-   background-image: url('/projeto_integrador/imagens/perfil/fundo.jpg');
+   background-color: #1C1C1C;
 }
 
 div{
 
-    background-color: aqua;
+  
     padding: 10px;
   
 }

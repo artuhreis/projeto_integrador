@@ -13,7 +13,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-image: url('/imagens/perfil/fundo.jpg');
+     background-color: #1C1C1C;
     color: #f1f5f8;
 }
 

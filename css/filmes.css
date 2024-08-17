@@ -1,4 +1,10 @@
-
+*{   margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
 div {
     
@@ -11,7 +17,8 @@ ul li {
 }
 
 body{
-   background-image: url('/projeto_integrador/imagens/perfil/fundo.jpg');
+   background-image: url('/imagens/perfil/fundo.jpg');
+   
 }
 
 div{
@@ -19,14 +26,14 @@ div{
   
 }
 .rodape{
-    margin-top: 70vh;
+    margin-top: 20vh;
 }
 
 .cabecalho{
     display: flex;
     align-items: center;
-    width: 100vw;
-    height: 10vh;
+    width: 500px;
+    height: 5vh;
     margin-bottom: 150px;
 }
 .botao_cabecalho{

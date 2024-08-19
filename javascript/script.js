@@ -1,7 +1,10 @@
 const carousels = {
     'carousel1': 0,
     'carousel2': 0,
-    'carousel3': 0
+    'carousel3': 0,
+    'carousel4': 0,
+    'carousel5': 0,
+    'carousel6': 0
 };
 
 function showSlide(carouselId, slideIndex) {

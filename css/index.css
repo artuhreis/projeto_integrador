@@ -1,111 +1,154 @@
 /*reset css*/
+@font-face {
+   font-family: playflix;
+   src: url(/fonte/BebasNeue-Regular.ttf);
+}
 * {
   margin: 0;
    box-sizing: border-box;
+   font-family: playflix;
 }
 
+.pai-corrosel{
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 5px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    
+    
+    
+}
+
+.pai-corrosel2{
+    display: flex;
+    align-items: center;
+    
+    width: 100vw;
+    height: 5px;
+    margin-top: 100px;
+    margin-bottom: 0;
+
+    justify-content:start;
+    
+}
+
+
+.titulo-carrosel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 40px;
+    margin-top: 100px;
+    
+   
+
+}
+
+.hr-right{
+    width: 50%;
+    height: 2px;
+}
+
+.hr-left{
+    width: 50%;
+    height: 2px;
+}
+
+.text-hr{
+    padding: 0 10px;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+    font-size: 40px;
+}
+
+
+.navbar {
+    
+    padding: 10px 20px;
+    position:static;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-logo img {
+    height: 100px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-item {
+    position: relative;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #fd0606;
+}
+
+    
 
 body{
     display: flex;
     flex-direction: column;
-    background-image: url('../imagens/perfil/fundo.jpg');
+    background-color: #1C1C1C;
     color: #f1f5f8;
 }
-
-.cabecalho{
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    height: 10vh;
-    margin-bottom: 150px;
-}
-.botao_cabecalho{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; 
-    margin-left: auto;
-    height: 100%;
-    padding-right: 10px;
-    gap: 10px;
-}
-.botao{
-    padding: 10px;
-    margin: auto;
-    border-radius: 10px;
-    background: transparent;
-    color: #f1f5f8;
-    transition: border-color 0.3s ease; /* Suaviza a transição da cor da borda */
-    background-color: #007bff;
-    
-}
-
-.botao a{
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Efeito de hover */
-.botao:hover {
-    border-color: #f1f5f8; /* Muda a cor da borda ao passar o mouse */
-}
-.formulario {
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin-top: 100px;
-    text-decoration: none;
-}
-.login {
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.login input{
-    margin-bottom: 20px;
-    
-}
-
-
-#botao{
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    
-    
-}
-
-.rodape{
-    margin-top: 70vh;
-}
-
-.titulo-carousel{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 10px;
-    margin-top: 10px;
-    font-size: 30px;
-    font-family: sans-serif;
-    
-}
-
 
 
 .container-carrosel{
     display:flex;
     gap: 10px;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .carousel {
     position: relative;
     width: 80%;
-    max-width: 800px;
+    max-width: 600px;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-filmes {
+    position: relative;
+    width: 60%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item-filmes img {
+    width: 200px;
+    display: block;
+    border-radius: 10px;
+    padding: ;
 }
 
 .carousel-inner {
@@ -146,12 +189,38 @@ body{
 }
 
 .imagem_carrosel{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
 }
 main{
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+.pai-filmes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filmes-container{
+    display: flex;
+    width: 1500px;
+    height:500px;
+    
+    
+  
+    margin-top: 100px;
+    margin-left: 30px;
+
+    }
+    .filmes img{
+        width: 250px;
+        height: 200px;
+        padding: 10px;
+    }
+
+.rodape{
+    margin-top: 20vh;
 }

@@ -1,19 +1,27 @@
-.rodape{
-    margin-top: 70vh;
+/*reset css*/
+@font-face {
+   font-family: playflix;
+   src: url(/fonte/BebasNeue-Regular.ttf);
 }
+* {
+  margin: 0;
+   box-sizing: border-box;
+   font-family: playflix;
+}
+
 
 body{
     display: flex;
     flex-direction: column;
-    background-image: url('/imagens/perfil/fundo.jpg');
+     background-color: #1C1C1C;
     color: #f1f5f8;
 }
 
 .cabecalho{
     display: flex;
     align-items: center;
-    width: 100vw;
-    height: 10vh;
+    width: 500px;
+    height: 5vh;
     margin-bottom: 220px;
 }
 .botao_cabecalho{
@@ -47,4 +55,8 @@ body{
 #continuar {
     
     margin-top: 20px;
+}
+
+.rodape{
+    margin-top: 20vh;
 }

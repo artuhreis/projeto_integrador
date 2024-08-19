@@ -4,30 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/filmes.css">
+    
     <title>Filmes</title>
 </head>
 <body>
-    <header>
-        <img src="./imagens/layout/logo.png" alt="logo">
-    </header>
+  <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-logo">
+                <img src="/imagens/layout/logo.png" alt="Logo">
+            </a>
+            <ul class="navbar-menu">
+                
+               
+                <li class="navbar-item"><a href="/login.html" class="navbar-link">Em Alta</a></li>
+                 <li class="navbar-item"><a href="/cadastro.html" class="navbar-link">Animes</a></li>
+                 <li class="navbar-item"><a href="/login.html" class="navbar-link">Series</a></li>
+                 <li class="navbar-item"><a href="/cadastro.html" class="navbar-link">Filmes</a></li>
+                 <li class="navbar-item"><a href="/index.html" class="navbar-link">Sair</a></li>   
+                 
+                
+                 
+            </ul>
+        </div>
+    </nav>
 
-    <div>
-        <img src="./imagens/filmes/ação_aventura.png" width="19%">
-        <img src="./imagens/filmes/ação_aventura.png" width="19%">
-        <img src="./imagens/filmes/ação_aventura.png" width="19%">
-        <img src="./imagens/filmes/ação_aventura.png" width="19%">
-        <img src="./imagens/filmes/ação_aventura.png" width="19%">
+    <div class="filmes">
+        <img src="./imagens/filmes-html/em_alta.png" class="reveal-img" data-hover="./imagens/filmes-html/generico.png" width="16%" >
+        <img src="./imagens/filmes-html/comédia.png" class="reveal-img" data-hover="./imagens/filmes-html/generico.png"  width="16%" >
+        <img src="./imagens/filmes-html/drama.png" class="reveal-img" data-hover="./imagens/filmes-html/generico.png"  width="16%" >
+        <img src="./imagens/filmes-html/ficção_policial.png" class="reveal-img" data-hover="./imagens/filmes-html/generico.png"  width="16%" >
+        <img src="./imagens/filmes-html/romance.png" class="reveal-img" data-hover="./imagens/filmes-html/generico.png"  width="16%" >
+        <img src="./imagens/filmes-html/romance.png" class="reveal-img" data-hover="./imagens/filmes-html/generico.png"  width="16%" >
     </div>
 
-    <div>
-        <img src="./imagens/filmes/ação_aventura.png" width="19%">
-        <img src="./imagens/filmes/ação_aventura.png" width="19%">
-        <img src="./imagens/filmes/ação_aventura.png" width="19%">
-        <img src="./imagens/filmes/ação_aventura.png" width="19%">
-        <img src="./imagens/filmes/ação_aventura.png" width="19%">
+    <div class="filmes">
+        <img src="./imagens/filmes-html/ação_aventura.png" class="reveal-img" data-hover="./imagens/filmes-html/generico.png"  width="16%" >
+        <img src="./imagens/filmes-html/filme_musical.png" class="reveal-img" data-hover="./imagens/filmes-html/generico.png"  width="16%" >
+        <img src="./imagens/filmes-html/suspense.png" class="reveal-img" data-hover="./imagens/filmes-html/generico.png"  width="16%" >
+        <img src="./imagens/filmes-html/séries.png" class="reveal-img" data-hover="./imagens/filmes-html/generico.png"  width="16%" >
+        <img src="./imagens/filmes-html/Terror.png" class="reveal-img" data-hover="./imagens/filmes-html/generico.png" width="16%" >
+        <img src="./imagens/filmes-html/romance.png" class="reveal-img" data-hover="./imagens/filmes-html/generico.png"  width="16%" >
     </div>
    
 
+    
     <footer class="rodape">
         <h5>
             Para Mais informações, entre em contato: <br>
@@ -36,6 +56,6 @@
             E-mail: sac@playflix.com.br
         </h5>
     </footer>
-    
+     <script src="./javascript/filmes.js"></script>
 </body>
 </html>

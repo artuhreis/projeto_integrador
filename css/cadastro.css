@@ -1,19 +1,71 @@
-.rodape{
-    margin-top: 70vh;
+/*reset css*/
+@font-face {
+   font-family: playflix;
+   src: url(/fonte/BebasNeue-Regular.ttf);
+}
+* {
+  margin: 0;
+   box-sizing: border-box;
+   font-family: playflix;
+}
+
+
+
+.navbar {
+    
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-logo img {
+    height: 100px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-item {
+    position: relative;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #fd0606;
 }
 
 body{
     display: flex;
     flex-direction: column;
-    background-image: url('/imagens/perfil/fundo.jpg');
-    color: #f1f5f8;
+     background-color: #1C1C1C;
+    color: rgba(241, 245, 248, 0.5);
 }
 
 .cabecalho{
     display: flex;
     align-items: center;
-    width: 100vw;
-    height: 10vh;
+    width: 500px;
+    height: 5vh;
     margin-bottom: 220px;
 }
 
@@ -31,9 +83,11 @@ body{
 .formulario{
     display: flex;
     justify-content: center;
+    margin-top: 250px;
+    
 }
 
-.cadastro {
+.cadastro{
     color: black;
     font-size: 18px;
     display: flex;
@@ -44,14 +98,27 @@ body{
     border-radius: 8px;
     background-color: #f9f9f9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    width: 400px;
 }
+
 .cadastro input {
     color: black;
     text-align: center;
-    width: 100%
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
 }
 
+.cadastro button {
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    background: transparent;
+    color: #f1f5f8;
+    transition: border-color 0.3s ease; /* Suaviza a transição da cor da borda */
+    background-color: #007bff;
+    
+} 
 
 
 .botao{
@@ -64,7 +131,11 @@ body{
     background-color: #007bff;
 }
 
-.botao a {
+ a {
     color: #f1f5f8;
+    text-decoration: none;
 }
 
+.rodape{
+    margin-top: 20vh;
+}

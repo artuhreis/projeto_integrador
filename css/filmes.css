@@ -1,12 +1,74 @@
-header{
-    background-color: #ff0000;
+<<<<<<< HEAD
+*{   margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 div {
-    border-width: 2px;
-    border-style: ridge;
-    border-color: rgba(255, 94, 0, 0.308);
-    margin: 20px;
+=======
+/*reset css*/
+@font-face {
+   font-family: playflix;
+   src: url(/fonte/BebasNeue-Regular.ttf);
+}
+* {
+  margin: 0;
+   box-sizing: border-box;
+   font-family: playflix;
+}
+
+.navbar {
+>>>>>>> 73775d0e5a00d54bfa16aea2f1e47121e664e2ab
+    
+    padding: 10px 20px;
+    position:relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-logo img {
+    height: 100px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-item {
+    position: relative;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #fd0606;
+}
+
+
+
+
+.filmes{
+    margin-top: 100px;
     padding: 10px;
 }
 
@@ -15,13 +77,49 @@ ul li {
 }
 
 body{
-    background-color: rgb(214, 243, 245);
+<<<<<<< HEAD
+   background-image: url('/imagens/perfil/fundo.jpg');
+   
+=======
+   background-color: #1C1C1C;
+>>>>>>> 73775d0e5a00d54bfa16aea2f1e47121e664e2ab
 }
 
 div{
-    padding: 20px;
+
+  
+    padding: 10px;
   
 }
+<<<<<<< HEAD
 .rodape{
-    margin-top: 70vh;
+    margin-top: 20vh;
+}
+=======
+
+>>>>>>> 73775d0e5a00d54bfa16aea2f1e47121e664e2ab
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 5vh;
+    margin-bottom: 150px;
+}
+.botao_cabecalho{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    margin-left: auto;
+    height: 100%;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+.reveal-img {
+    transition: opacity 0.3s ease;
+}
+
+.rodape{
+    margin-top: 20vh;
 }

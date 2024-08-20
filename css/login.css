@@ -101,6 +101,9 @@ body{
     margin-bottom: 20px;
     margin-top: 200px;
     font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color:  rgba(0, 0, 0, 1.1);
     
     
 }
@@ -123,8 +126,12 @@ a{
     margin-bottom: 20px;  
 }
 
+h5 {
+    margin-top: 10px;
+}
+
 
 
 .rodape{
-    margin-top: 20vh;
+    margin-top: 45vh;
 }

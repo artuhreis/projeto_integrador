@@ -18,7 +18,7 @@
                 
                
                 <li class="navbar-item"><a href="/login.html" class="navbar-link">Inicio</a></li>
-                 <li class="navbar-item"><a href="/cadastro.html" class="navbar-link">Sair</a></li>
+                 <li class="navbar-item"><a href="/index.html" class="navbar-link">Sair</a></li>
                 
                  
             </ul>
@@ -30,27 +30,39 @@
         <main>
             <form >
                 <div class="cadastro">
-                    <label for="nomeCompleto">Nome  </label>
-                    <input type="text" id="nomeCompleto" placeholder="Digite seu Nome Completo"> <br>
+                    
+                    <div >
+                    <label for="nomeCompleto">Nome</label>
+                        <input type="text" id="nomeCompleto" placeholder="Digite seu Nome Completo"> <br>
 
+                        <label for="cpfFornecido">CPF: </label>
+                    <input type="inteiro" id="cpfFornecido" placeholder="Informe seu CPF"> 
+                    </div>
+
+                <div >
                     <label for="emailFornecido">E-mail:</label>
-                    <input type="email" id="emailFornecido" placeholder="Digite seu E-mail"> <br>
+                    <input type="email" id="emailFornecido" placeholder="Digite seu E-mail"> <br> 
 
-                    <label for="cpfFornecido">CPF: </label>
-                    <input type="inteiro" id="cpfFornecido" placeholder="Informe seu CPF"> <br>
+                    <label for="emailConfirmado">Confirme o E-mail:</label>
+                    <input type="email" id="emailConfirmado" placeholder="Confirme seu E-mail">
+                </div>
+                    
 
+                <div >
                     <label for="numeroTelefone">Telefone: </label>
                     <input type="tel" id="numeroTelefone" placeholder="Infrome seu Telefone"> <br>
 
                     <label for="dataNascimento">Data de Nascimento:</label>
                     <input type="date" id="dataNascimento"> <br>
-                    
+                </div>
+
+                <div>
                     <label for="senha">Crie uma senha: </label>
                     <input type="password" id="senha" placeholder="Crie uma senha"> <br>
 
-                    <button><a href="./login.html">Cadastre-se</a></button> 
-                    
-                </div>
+                    <button id="botao-cadastrar"><a href="./login.html">Cadastre-se</a></button> 
+                </div>   
+            </div>
             </form>
         </main>
     </div>

@@ -120,5 +120,26 @@ body{
 }
 
 .rodape{
-    margin-top: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    
+    
+}
+
+.rodape-texto {
+    width: 90%;
+    
+}
+
+.rodape-texto h5 {
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hr-footer{
+    width: 100%;
+    height: 1px;
 }

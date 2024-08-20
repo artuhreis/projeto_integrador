@@ -56,7 +56,11 @@
 .hr-left{
     width: 50%;
     height: 2px;
+    border: 0px;
+    
 }
+
+
 
 .text-hr{
     padding: 0 10px;
@@ -148,7 +152,7 @@ body{
     width: 200px;
     display: block;
     border-radius: 10px;
-    padding: ;
+    padding: 10px;
 }
 
 .carousel-inner {
@@ -222,5 +226,27 @@ main{
     }
 
 .rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20vh;
+    
+    
 }
+
+.rodape-texto {
+    width: 90%;
+    
+}
+
+.rodape-texto h5 {
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hr-footer{
+    width: 100%;
+    height: 1px;
+}
+

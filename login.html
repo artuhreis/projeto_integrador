@@ -25,39 +25,32 @@
         </div>
     </nav>
 
-   <div class="formulario">
-         <main>
-            <form>
-                <div class="login">
-                    <label for="emailCadastrado">E-mail:</label>
-                    <input type="email" id="emailCadastrado"  placeholder="Digite seu email">
-                    
-                    <label for="senha">Senha:</label> 
-                    <input type="password" placeholder="Digite sua senha"> 
-                    
-                    
-                    
-                    <div id="botao-entra">
-                        <button><a href="./perfil.html">Entrar</a></button>                        
-                    </div>
-
-                    <h4>
-                        Ainda não possui cadastro? <a href="./cadastro.html">Clique e Assine agora.</a>
-                    </h4>
-
-                    <h5>Não lembra da sua senha? 
-                        <a href="./senha.html">Clique aqui para recuperar</a>
-                    </h5>
-                
-                    
-                </div>
-                
-            </form>
-         </main>
-   </div>
-   
+    <form class="formulario" id="formlogin">
+        <div class="login">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="digite seu email" >
+            <p id="email-helper" class="helper-text"></p>
+        
+        
+        <label for="senha">*Senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="digite sua senha">
+        <p id="senha-helper" class="helper-text"></p>
     
+       
     
+        <button type="submit" >Entrar</button>
+
+        <h4>
+            Ainda não possui cadastro? <a href="./cadastro.html">Clique e Assine agora.</a>
+        </h4>
+
+        <h5>Não lembra da sua senha?
+            <a href="./senha.html">Clique aqui para recuperar</a>
+        </h5>
+    </div>
+      </form>
+
+
    <footer class="rodape">
         <div class="rodape-texto">
             <hr class="hr-footer">
@@ -69,6 +62,7 @@
                 </h5>
         </div>
     </footer>
+    <script src="./javascript/validacao.js"></script>
 </body>
 </html>
 

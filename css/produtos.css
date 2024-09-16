@@ -121,73 +121,73 @@
       
       }
     .produto-1 .card-imagem{
-        background-image: url('/projeto_integrador/imagens/produtos/anne.jpeg')
+        background-image: url('/imagens/produtos/anne.jpeg')
         }
     .produto-1 .card-imagem:hover{
-    background-image:url('/projeto_integrador/imagens/produtos/anne_sinopse.jpeg');
+    background-image:url('/imagens/produtos/anne_sinopse.jpeg');
     }
     .produto-2 .card-imagem{
-    background-image:url('/projeto_integrador/imagens/produtos/Emily_in_Paris.jpeg'); 
+    background-image:url('/imagens/produtos/Emily_in_Paris.jpeg'); 
     }
     .produto-2 .card-imagem:hover{
-    background-image:url('/projeto_integrador/imagens/produtos/Emily_in_Paris_sinopse3.jpeg');
+    background-image:url('/imagens/produtos/Emily_in_Paris_sinopse3.jpeg');
     }
     .produto-3 .card-imagem{
-    background-image:url('/projeto_integrador/imagens/produtos/Coisa_mais_linda.jpeg');      
+    background-image:url('/imagens/produtos/Coisa_mais_linda.jpeg');      
     }
     .produto-3 .card-imagem:hover{
-    background-image:url(imagem/);
+    background-image:url('');
     } 
     .produto-4 .card-imagem{
-    background-image:url('/projeto_integrador/imagens/produtos/Durante_a_tormenta2.jpeg');
+    background-image:url('/imagens/produtos/Durante_a_tormenta2.jpeg');
     }
     .produto-4 .card-imagem:hover{
     background-image:url(imagem/);
     }    
     .produto-5 .card-imagem{
-    background-image:url('/projeto_integrador/imagens/produtos/Moxie.jpeg');
+    background-image:url('/imagens/produtos/Moxie.jpeg');
     }
     .produto-5 .card-imagem:hover{
     background-image:url(imagem/);
     }    
     .produto-6 .card-imagem{
-    background-image:url('/projeto_integrador/imagens/produtos/Era_uma_segunda_vez.jpeg');
+    background-image:url('/imagens/produtos/Era_uma_segunda_vez.jpeg');
     }
     .produto-6 .card-imagem:hover{
     background-image:url(imagem/);
     }    
     .produto-7 .card-imagem{
-    background-image:url('/projeto_integrador/imagens/produtos/Fora_de_série.jpeg');
+    background-image:url('/imagens/produtos/Fora_de_série.jpeg');
     }
     .produto-7 .card-imagem:hover{
     background-image:url(imagem/);
     }    
     .produto-8 .card-imagem{
-    background-image:url('/projeto_integrador/imagens/produtos/Good_girls.jpeg');
+    background-image:url('/imagens/produtos/Good_girls.jpeg');
     }
     .produto-8 .card-imagem:hover{
     background-image:url(imagem/);
     }
     .produto-9 .card-imagem{
-    background-image:url('/projeto_integrador/imagens/produtos/Não_nasci_para_agradar.jpeg');
+    background-image:url('/imagens/produtos/Não_nasci_para_agradar.jpeg');
     }
     .produto-9 .card-imagem:hover{
     background-image:url(imagem/);
     }
     .produto-10 .card-imagem{
-    background-image:url('/projeto_integrador/imagens/produtos/Eu_não_sou_um_homem_fácil.jpeg');
+    background-image:url('/imagens/produtos/Eu_não_sou_um_homem_fácil.jpeg');
     }
     .produto-10 .card-imagem:hover{
     background-image:url(imagem/);
     }
     .produto-11 .card-imagem{
-    background-image:url('/projeto_integrador/imagens/produtos/Boys.jpeg');
+    background-image:url('/imagens/produtos/Boys.jpeg');
     }
     .produto-11 .card-imagem:hover{
     background-image:url(imagem/);
     }
     .produto-12 .card-imagem{
-    background-image:url('/projeto_integrador/imagens/produtos/A_boa_mentira.jpeg');
+    background-image:url('/imagens/produtos/A_boa_mentira.jpeg');
     }
     .produto-12 .card-imagem:hover{
     background-image:url(imagem/p);

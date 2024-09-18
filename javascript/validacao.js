@@ -11,18 +11,9 @@ let senhaHelper = document.getElementById("senha-helper");
 // ---------- VALIDAÇÃO FORM ---------- //
 let form = document.getElementById("formlogin");
 
-// Mostrar popup de campo obrigatório
-// function mostraOcultaPopup(input, label) {
-//     input.addEventListener("focus", () => {
-//         label.classList.add("required-popup");
-//     });
-
-//     label.addEventListener("blur", () => {
-//         label.classList.remove("required-popup");
-//     });
-// }
 
 // Função que valida senha
+
 function validSenha() {
     let valor = senhaInput.value;
     let valorSemEspacos = valor.trim();
@@ -82,5 +73,5 @@ form.addEventListener('submit', function(event) {
 });
 
 // Mostra e oculta popup de campo obrigatório
-mostraOcultaPopup(senhaInput, senhaLabel);
-mostraOcultaPopup(emailInput, emailLabel);
+//mostraOcultaPopup(senhaInput, senhaLabel);
+//mostraOcultaPopup(emailInput, emailLabel);

@@ -14,7 +14,7 @@
      <nav class="navbar">
         <div class="navbar-container">
                 <a href="./index.html" class="navbar-logo">
-                    <img src="/projeto_integrador/imagens/layout/logo.png" alt="Logo">
+                    <img src="/imagens/layout/logo.png" alt="Logo">
                 </a>
                 <ul class="navbar-menu">
                     
@@ -28,47 +28,53 @@
     
     
 
-    <div class="formulario">
-        <main>
-            <form >
-                <div class="cadastro">
-                    <label for="nomeCompleto">Alterar Nome  </label>
-                    <input type="text" id="nomeCompleto" placeholder="Digite seu Novo Nome Completo"> <br>
+    <main>
+        <form class="formulario" id="form-perfil">
+            <div class="cadastro">
+                
+                <div >
+                <label for="nomeCompleto">Novo Nome</label>
+                    <input type="text" id="nomeCompleto" placeholder="Digite seu Nome Completo" class="input-class">
+                    <p id="nome-helper" class="helper-text"></p> <br>
 
-                    <label for="emailFornecido">Alterar E-mail:</label>
-                    <input type="email" id="emailFornecido" placeholder="Digite seu Novo E-mail"> <br>
+                    <label for="cpfFornecido">Alterar CPF: </label>
+                <input type="text" id="cpfFornecido" placeholder="Informe seu CPF" class="input-class"> 
+                <p id="cpf-helper" class="helper-text"></p> <br>
+              
+                <label for="emailFornecido">Alterar E-mail:</label>
+                <input type="email" id="emailFornecido" placeholder="Digite seu E-mail" class="input-class"> 
+                <p id="email-helper" class="helper-text"></p> <br>
+            
+                <label for="numeroTelefone">Novo Telefone: </label>
+                <input type="text" id="numeroTelefone" placeholder="Informe seu Telefone" class="input-class">
+                <p id="tel-helper" class="helper-text"></p>  <br>
 
-                    <label for="cpfFornecido">Alterar CPF Da Assinatura: </label>
-                    <input type="inteiro" id="cpfFornecido" placeholder="Informe seu Novo  CPF"> <br>
+                <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento"> 
+                <p id="data-helper" class="helper-text"></p> <br>
+            
+                <label for="senha">Crie uma nova senha: </label>
+                <input type="password" id="senha" placeholder="Crie uma senha" class="input-class"> 
+                <p id="senha-helper" class="helper-text"></p> <br>
 
-                    <label for="numeroTelefone">Alterar o Telefone: </label>
-                    <input type="tel" id="numeroTelefone" placeholder="Informe seu Novo Telefone"> <br>
-
-                    <label for="dataNascimento">Alterar Data de Nascimento (Caso o CPF seja alterado):</label>
-                    <input type="date" id="dataNascimento"> <br>
-                    
-                    <label for="senha">Alterar a senha: </label>
-                    <input type="password" id="senha" placeholder="Crie uma Novo senha"> <br>
-
-                    <label for="senha">Confirme a nova senha: </label>
-                    <input type="password" id="senha" placeholder="Confirme a senha, precisa ser igual a digitada acima"> <br>
-
-                    <button><a href="./login.html">Salvar Alterações</a></button> 
-                    
-                </div>
-            </form>
-        </main>
-    </div>
-
+                <button id="botao-cadastrar" type="submit">Alterar</button> 
+            </div>   
+        </div>
+        </form>
+    </main>
 
 
     <footer class="rodape">
-        <h5>
-            Para Mais informações, entre em contato: <br>
+        <div class="rodape-texto">
+            <hr class="hr-footer">
+                <h5>
+                    Para Mais informações, entre em contato:
 
-            Telefone: 0800 3540 2020 <br>
-            E-mail: sac@playflix.com.br
-        </h5>
+                    Telefone: 0800 3540 2020 | 
+                    E-mail: sac@playflix.com.br | &copy;PlayFlix
+                </h5>
+        </div>
     </footer>
+    <script src="./javascript/validacao_cadastro.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: playflix;
-    src: url(/fonte/BebasNeue-Regular.ttf);
+    src: url('https://raw.githubusercontent.com/lucasscardoso/projeto_integrador/main/fonte/BebasNeue-Regular.ttf') format('truetype');
   
    }
  

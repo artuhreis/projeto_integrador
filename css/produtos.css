@@ -217,11 +217,11 @@
         border: 2px solid #fff;
       }
     .produto-1 .card-imagem{
-        background-image: url('/imagens/produtos/anne.jpeg')
+        background-image: url('https://raw.githubusercontent.com/lucasscardoso/projeto_integrador/refs/heads/main/imagens/produtos/anne.jpeg ')
         }
    
     .produto-2 .card-imagem{
-    background-image:url('/imagens/produtos/Emily_in_Paris.jpeg'); 
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Emily_in_Paris.jpeg'); 
     }
    
     .produto-3 .card-imagem{

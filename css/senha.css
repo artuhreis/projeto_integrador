@@ -68,6 +68,17 @@ body{
     text-align: center;
 }
 
+.envia{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.envia:hover{
+    color: #fd0606;
+}
+
+
 .recuperar{
     color: #f9f9f9;
     font-size: 18px;
@@ -108,4 +119,60 @@ body{
 .hr-footer{
     width: 100%;
     height: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 10px 15px; 
+    }
+
+    .navbar-container {
+        flex-direction: column; 
+        align-items: center; 
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+
+    .navbar-menu {
+        flex-direction: column; 
+        gap: 10px; 
+        padding: 0; 
+        margin: 10px 0; 
+    }
+
+    .navbar-item {
+        margin: 5px 0; 
+    }
+
+    .navbar-logo img {
+        height: 80px;
+    }
+
+    .navbar-link {
+        font-size: 16px; 
+    }
+
+    .formulario {
+        flex-direction: column; 
+        padding: 10px; 
+    }
+
+   
+    .recuperar {
+        width: 90%; 
+        padding: 20px; 
+    }
+
+    .rodape {
+        flex-direction: column; 
+        margin-top: 10vh;
+    }
+
+    .rodape-texto {
+        width: 100%; 
+    }
+
+    .hr-footer {
+        height: 2px;
+    }
 }

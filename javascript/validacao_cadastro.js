@@ -206,7 +206,7 @@ form.addEventListener("submit", function(event) {
 
         alert("Cadastro Realizado com sucesso, após clicar em ok, voce sera redirecionado em 3 segundos!")
         setTimeout(() => {   
-        window.location.href = '../login.html'; // Redireciona para a nova página se tudo estiver válido
+        window.location.href = 'login.html'; // Redireciona para a nova página se tudo estiver válido
         }, 3000);
         
     } else {

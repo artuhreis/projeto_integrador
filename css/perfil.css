@@ -1,7 +1,7 @@
 /*reset css*/
 @font-face {
    font-family: playflix;
-   src: url(/fonte/BebasNeue-Regular.ttf);
+   src: url('https://raw.githubusercontent.com/lucasscardoso/projeto_integrador/main/fonte/BebasNeue-Regular.ttf') format('truetype');
 }
 * {
   margin: 0;
@@ -57,13 +57,12 @@ h1{
     height: 270px;
     padding: 20px;
     border-radius: 1000px;
-    border: 5px solid transparent; /* Inicialmente a borda é transparente */
-    transition: border-color 0.3s ease; /* Suaviza a transição da cor da borda */
+    border: 5px solid transparent; 
+    transition: border-color 0.3s ease; 
 }
 
-/* Efeito de hover */
 .imagem_perfil:hover {
-    border-color: #f1f5f8; /* Muda a cor da borda ao passar o mouse */
+    border-color: #f1f5f8; 
 }
 
 
@@ -83,15 +82,63 @@ button {
     color: #f1f5f8;
     font-size: 25px;
     cursor: pointer;
-    border: 2px solid #f1f5f8; /* Adiciona uma borda ao botão */
-    transition: all 0.3s ease; /* Adiciona transição suave */
+    border: 2px solid #f1f5f8; 
+    transition: all 0.3s ease; 
 }
 
 button:hover {
-    background-color:rgba(51, 51, 51, 0.308); /* Muda a cor de fundo do botão ao passar o mouse */
-    color: #333; /* Muda a cor do texto do botão ao passar o mouse */
-    border-color: #333; /* Muda a cor da borda do botão ao passar o mouse */
+    background-color:rgba(51, 51, 51, 0.308); 
+    color: #333; 
+    border-color: #333; 
 }
+@media only screen and (max-width: 768px) {
+    body {
+        flex-direction: column; 
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .title {
+        flex-direction: column; 
+        margin-top: 50px; 
+        height: auto;
+    }
+
+    .page {
+        width: 100vw;
+        height: auto; 
+        padding: 20px;
+    }
+
+    .perfil {
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .imagem_perfil {
+        width: 200px;
+        height: 200px;
+    }
+
+    .button_perfil {
+        width: 100%;
+        height: auto; 
+        margin-top: 20px; 
+    }
+
+    button {
+        width: 80%; 
+        font-size: 20px; 
+        padding: 10px; 
+    }
+}
+
  
     
    

@@ -1,7 +1,7 @@
 /* Reset CSS */
 @font-face {
     font-family: playflix;
-    src: url(/fonte/BebasNeue-Regular.ttf);
+    src: url('https://raw.githubusercontent.com/lucasscardoso/projeto_integrador/main/fonte/BebasNeue-Regular.ttf') format('truetype');
  }
  * {
    margin: 0;
@@ -74,7 +74,7 @@
      border-radius: 8px;
      background-color: rgba(0, 0, 0, 1.1);
      width: 100%;
-     max-width: 400px; /* Ajuste a largura máxima do formulário */
+     max-width: 400px; 
  }
  
  .login label {
@@ -89,10 +89,10 @@
  }
  
  .login input {
-     width: 100%; /* Faz com que o input ocupe toda a largura disponível */
+     width: 100%; 
      padding: 10px;
      border: 1px solid #666;
-     border-radius: 4px; /* Adiciona bordas arredondadas aos campos de entrada */
+     border-radius: 4px; 
  }
  
 
@@ -183,7 +183,7 @@
   }
   
   .helper-text {
-    display: none; /* Oculta por padrão */
+    display: none; 
     color: red;
     font-size: 0.875em;
     margin-top: 5px;
@@ -191,3 +191,28 @@
 .visible {
     display: block;
   }
+
+  @media only screen and (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .navbar-logo img {
+        height: 80px;
+    }
+
+    .navbar-menu {
+        flex-direction: row; 
+        gap: 15px; 
+        justify-content: center; 
+    }
+
+    .navbar-link {
+        font-size: 18px; 
+    }
+
+    .formulario {
+        margin-top: 50px;
+    }
+}

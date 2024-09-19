@@ -1,30 +1,106 @@
-*{
-    margin: 0; padding: 0;
+@font-face {
+  font-family: playflix;
+  src: url('https://raw.githubusercontent.com/lucasscardoso/projeto_integrador/main/fonte/BebasNeue-Regular.ttf') format('truetype');
   
-    }
-  
-  @font-face {
-   font-family:"niagato" ;
-   src: url(Fonte/Niagato.ttf);
-   }
-  
-  .logo{
-   height: 120px;
-   border-radius: 120px;
-   margin-top: 50px;
-   margin-bottom: 2%; 
-   width: 50%;
-   margin-left: 25%
-  }
-  .carrinho{
-    width: 50px;/*tamanho do carrinho*/
-    height: 50px;/*tamanho do carrinho*/
-    border-radius: 50px;
-    margin-left: 90%;/*posição do carrinho-margem lateral*/
-    margin-bottom: 2%;/*margem entre o carrinho e os produtos*/
-  
-  }
+
+ }
  
+ .pai-corrosel{
+  display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100vw;
+     height: 5px;
+     margin-top: 100px;
+     margin-bottom: 100;  
+     
+ }
+ 
+ 
+ .titulo-carrosel{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 50vw;
+     height: 40px;
+     margin-top: 100px;
+     
+ }
+ 
+ .hr-right{
+     width: 50%;
+     height: 2px;
+ }
+ 
+ .hr-left{
+     width: 50%;
+     height: 2px;  
+     
+ }
+ 
+ .text-hr{
+     padding: 0 10px;
+     font-weight: bold;
+     color: white;
+     white-space: nowrap;
+     font-size: 40px;
+   
+ }
+ 
+
+.navbar {
+  
+  padding: 10px 20px;
+  position:static;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-logo img {
+  height: 100px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-item {
+  position: relative;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #fd0606;
+
+}
+
+* {
+  margin: 0;
+   box-sizing: border-box;
+   font-family: playflix;
+  
+   text-decoration: none;
+}
+
+  
   body{
       background-color: rgb(19, 16, 14)
     }
@@ -35,18 +111,16 @@
       justify-content: center;
     }
    
-  /*cabeçalho*/
-  
   h3 {
   text-align:center;
-  color: rgb(255, 0, 0);
+  color:#fff;
   margin: 1,5rem;
   margin-bottom: 1px;
   } 
   
   h4{
     margin-bottom: 1.5rem; margin-top: 1.5rem;
-    color: rgb(255, 0, 0);
+    color:#fff;
   }
   .titulo-certificados{
     margin-bottom: 0px;
@@ -104,15 +178,14 @@
     }
   
   .card {
-  border:2px solid rgb(236, 51, 51);
+ 
+  padding: 10px;
   border-radius:5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, border 0.3s ease;
   }
   
-  .card-imagem:hover{
-    background-color: rgb(236, 51, 51);
-    color: rgb(18, 16, 15);
-    border-color: rgb(236, 164, 164);
-    }
+
     .card-imagem {
       height:300px;
       width: 100%;
@@ -120,7 +193,31 @@
       transition:.5s;
       
       }
+      .card-imagem::after {
+        content: '';
+        background-image: url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/play.png'); 
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 30%; 
+        height: 30%; 
+        transform: translate(-50%, -50%); 
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      
+      .card-imagem:hover::after {
+        opacity: 1; 
+      }
+      
+      .card-imagem:hover {
+        transform: scale(1.1); 
+        border: 2px solid #fff;
+      }
     .produto-1 .card-imagem{
+<<<<<<< HEAD
         background-image: url('/imagens/produtos/anne.jpeg')
         }
     .produto-1 .card-imagem:hover{
@@ -131,8 +228,17 @@
     }
     .produto-2 .card-imagem:hover{
     background-image:url('/imagens/produtos/Emily_in_Paris_sinopse3.jpeg');
+=======
+        background-image: url('https://raw.githubusercontent.com/lucasscardoso/projeto_integrador/refs/heads/main/imagens/produtos/anne.jpeg ')
+        }
+   
+    .produto-2 .card-imagem{
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Emily_in_Paris.jpeg'); 
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
+   
     .produto-3 .card-imagem{
+<<<<<<< HEAD
     background-image:url('/imagens/produtos/Coisa_mais_linda.jpeg');      
     }
     .produto-3 .card-imagem:hover{
@@ -140,77 +246,113 @@
     } 
     .produto-4 .card-imagem{
     background-image:url('/imagens/produtos/Durante_a_tormenta2.jpeg');
+=======
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Coisa_mais_linda.jpeg');      
     }
-    .produto-4 .card-imagem:hover{
-    background-image:url(imagem/);
-    }    
+    
+    .produto-4 .card-imagem{
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Durante_a_tormenta2.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
+    }
+    
     .produto-5 .card-imagem{
+<<<<<<< HEAD
     background-image:url('/imagens/produtos/Moxie.jpeg');
+=======
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Moxie.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
-    .produto-5 .card-imagem:hover{
-    background-image:url(imagem/);
-    }    
+      
     .produto-6 .card-imagem{
+<<<<<<< HEAD
     background-image:url('/imagens/produtos/Era_uma_segunda_vez.jpeg');
+=======
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Era_uma_segunda_vez.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
-    .produto-6 .card-imagem:hover{
-    background-image:url(imagem/);
-    }    
+      
     .produto-7 .card-imagem{
+<<<<<<< HEAD
     background-image:url('/imagens/produtos/Fora_de_série.jpeg');
+=======
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Fora_de_s%C3%A9rie.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
-    .produto-7 .card-imagem:hover{
-    background-image:url(imagem/);
-    }    
+    
     .produto-8 .card-imagem{
+<<<<<<< HEAD
     background-image:url('/imagens/produtos/Good_girls.jpeg');
     }
     .produto-8 .card-imagem:hover{
     background-image:url(imagem/);
+=======
+    background-image:url('https://github.com/artuhreis/projeto_integrador/blob/main/imagens/produtos/Good_girls.jpeg?raw=true');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
+   
     .produto-9 .card-imagem{
+<<<<<<< HEAD
     background-image:url('/imagens/produtos/Não_nasci_para_agradar.jpeg');
     }
     .produto-9 .card-imagem:hover{
     background-image:url(imagem/);
+=======
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/N%C3%A3o_nasci_para_agradar.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
+    
     .produto-10 .card-imagem{
+<<<<<<< HEAD
     background-image:url('/imagens/produtos/Eu_não_sou_um_homem_fácil.jpeg');
     }
     .produto-10 .card-imagem:hover{
     background-image:url(imagem/);
+=======
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Eu_n%C3%A3o_sou_um_homem_f%C3%A1cil.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
+    
     .produto-11 .card-imagem{
+<<<<<<< HEAD
     background-image:url('/imagens/produtos/Boys.jpeg');
     }
     .produto-11 .card-imagem:hover{
     background-image:url(imagem/);
+=======
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Boys.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
+    
     .produto-12 .card-imagem{
+<<<<<<< HEAD
     background-image:url('/imagens/produtos/A_boa_mentira.jpeg');
     }
     .produto-12 .card-imagem:hover{
     background-image:url(imagem/p);
+=======
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/A_boa_mentira.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
+    
   
-  .botao__comprar:hover{
-  background-color: rgba(247, 6, 42, 0.66);
-  color: rgba(250, 7, 59, 0.938);
-  border-color: rgb(204, 227, 243);
-  
-  }
-  .botao__comprar{
-  border:4px solid rgb(245, 5, 17);
-  width:40%;
-  padding:0.3rem;
-  border-radius:10px;
-  }
-  .botao__comprar{
+
+
+
+    .botao__comprar {
+      width: 40%;
+      padding: 0.3rem;
+      border-radius: 10px;
       margin-left: auto;
       margin-right: auto;
       margin-top: 5px;
       text-decoration: none;
-     
+      color: #fff;
+      
+    }
+    
+    .botao__comprar:hover {
+      color: #fd0606;
+      border-color: rgb(204, 227, 243);
     }
    
   .card-description{
@@ -249,4 +391,86 @@
       color:rgb(253, 10, 10);
       text-decoration:none;
     }
+
+
+   
+    .rodape{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20vh;
+  }
+  
+  .rodape-texto {
+      width: 90%;
+      
+  }
+  
+  .rodape-texto h5 {
+      text-align: center;
+      padding: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .rodape{
+      margin-top: 20vh;
+      color: #fff;
+  }
+  
+  .hr-footer{
+      width: 100%;
+      height: 1px;
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 10px; 
+    }
+    
+    .navbar-container {
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%; 
+        padding: 0 10px; 
+    }
+
+    .navbar-logo img {
+        height: 80px; 
+    }
+
+    .navbar-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 10px; 
+        justify-content: center; 
+        padding: 0;
+        margin: 10px 0; 
+    }
+
+    .navbar-link {
+        font-size: 16px; 
+    }
+
+    .titulo-carrosel {
+        margin-top: 50px; 
+        width: 90vw; 
+        height: auto; 
+    }
+
+    .pai-corrosel {
+        width: 100%; 
+        margin-top: 50px; 
+    }
+
+    .hr-left,
+    .hr-right {
+        width: 100%; 
+    }
+
+    .text-hr {
+        font-size: 30px;
+    }
+}
+
   

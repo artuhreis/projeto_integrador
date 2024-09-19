@@ -1,7 +1,7 @@
 /*reset css*/
 @font-face {
    font-family: playflix;
-   src: url(/fonte/BebasNeue-Regular.ttf);
+   src: url('https://raw.githubusercontent.com/lucasscardoso/projeto_integrador/main/fonte/BebasNeue-Regular.ttf') format('truetype');
 }
 * {
   margin: 0;
@@ -219,11 +219,24 @@ main{
     margin-left: 30px;
 
     }
-    .filmes img{
+    .filmes img {
         width: 250px;
         height: 200px;
         padding: 10px;
+        cursor: pointer;
+        transition: transform 0.3s ease, border 0.3s ease;
+
+       
     }
+    
+    .filmes img:hover {
+        transform: scale(1.1); 
+        border: 2px solid #fff;
+        
+        
+    }
+
+    
 
 .rodape{
     display: flex;
@@ -250,3 +263,93 @@ main{
     height: 1px;
 }
 
+@media only screen and (max-width: 768px) {
+    /* Ajustes no menu */
+    .navbar-container {
+       flex-direction: column;
+       align-items: center; 
+    }
+ 
+    .navbar-logo img {
+       height: 80px;
+    }
+ 
+    .navbar-menu {
+       display: flex;
+       flex-direction: row; 
+       justify-content: center; 
+       gap: 10px; 
+       text-align: center;
+       width: 100%; 
+    }
+ 
+    .navbar-link {
+       font-size: 18px;
+    }
+ 
+    /* Ajustes nos carrosséis */
+    .titulo-carrosel {
+       width: 80vw;
+       font-size: 30px;
+       margin-top: 50px;
+    }
+ 
+    .hr-left, .hr-right {
+       width: 30%;
+    }
+ 
+    .container-carrosel, .carousel, .carousel-filmes {
+       width: 90%;
+       max-width: 100%;
+    }
+
+    .carousel-item img {
+        width: 100%; 
+        height: 150px; 
+        object-fit: cover; 
+        display: block;
+    }
+
+    .carousel-item {
+        height: 150px; 
+    }
+ 
+  
+ 
+    
+    .filmes-container {
+       flex-direction: column;
+       width: 100%;
+       height: auto;
+       margin-left: 0;
+    }
+ 
+    .filmes img {
+       width: 150px;
+       height: auto;
+       padding: 5px;
+    }
+ 
+    .card-description h3 {
+       font-size: 16px;
+    }
+ 
+    .botao__comprar {
+       font-size: 14px;
+       padding: 10px 20px;
+    }
+ 
+    /* Ajustes no rodapé */
+    .rodape {
+       margin-top: 10vh;
+    }
+ 
+    .rodape-texto h5 {
+       font-size: 12px;
+    }
+ 
+    .hr-footer {
+       height: 1px;
+    }
+ }
+ 

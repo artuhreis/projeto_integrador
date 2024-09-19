@@ -1,7 +1,7 @@
 /*reset css*/
 @font-face {
    font-family: playflix;
-   src: url(/fonte/BebasNeue-Regular.ttf);
+   src: url('https://raw.githubusercontent.com/lucasscardoso/projeto_integrador/main/fonte/BebasNeue-Regular.ttf') format('truetype');
 }
 * {
   margin: 0;
@@ -62,11 +62,61 @@ body{
 }
 
 
-.formulario{
+.form-Senha{
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
+   
+    
 }
+
+
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #992020;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+  
+  input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+  input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+  }
+  
+  .helper-text {
+    display: none; 
+    color: red;
+    font-size: 0.875em;
+    margin-top: 5px;
+}
+.visible {
+    display: block;
+  }
+
+.envia{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.envia:hover{
+    color: #fd0606;
+}
+
 
 .recuperar{
     color: #f9f9f9;
@@ -108,4 +158,60 @@ body{
 .hr-footer{
     width: 100%;
     height: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 10px 15px; 
+    }
+
+    .navbar-container {
+        flex-direction: column; 
+        align-items: center; 
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+
+    .navbar-menu {
+        flex-direction: column; 
+        gap: 10px; 
+        padding: 0; 
+        margin: 10px 0; 
+    }
+
+    .navbar-item {
+        margin: 5px 0; 
+    }
+
+    .navbar-logo img {
+        height: 80px;
+    }
+
+    .navbar-link {
+        font-size: 16px; 
+    }
+
+    .formulario {
+        flex-direction: column; 
+        padding: 10px; 
+    }
+
+   
+    .recuperar {
+        width: 90%; 
+        padding: 20px; 
+    }
+
+    .rodape {
+        flex-direction: column; 
+        margin-top: 10vh;
+    }
+
+    .rodape-texto {
+        width: 100%; 
+    }
+
+    .hr-footer {
+        height: 2px;
+    }
 }

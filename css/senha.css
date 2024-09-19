@@ -62,11 +62,50 @@ body{
 }
 
 
-.formulario{
+.form-Senha{
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
+   
+    
 }
+
+
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #992020;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+  
+  input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+  input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+  }
+  
+  .helper-text {
+    display: none; 
+    color: red;
+    font-size: 0.875em;
+    margin-top: 5px;
+}
+.visible {
+    display: block;
+  }
 
 .envia{
     text-decoration: none;

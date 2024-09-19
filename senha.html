@@ -27,21 +27,21 @@
         </div>
     </nav>
 
-    <div class="formulario">
-        <main>
-            <form >
+   
+            <form class="form-Senha" >
                 <div class="recuperar">
                    <h1>Recuperar minha senha</h1>
                    <p>Insira o endereço de e-mail associado à sua conta PlayFlix.</p>
 
                    <label for="emailCadastrado" >Email</label>
-                    <input type="email" placeholder="Digite seu E-mail"> <br>
+                    <input type="email" id="email" placeholder="Digite seu E-mail"> <br>
+                    <p id="email-helper" class="helper-text"></p>
                     <br>
                     <a href="login.html" class="envia"> Enviar </a>
                 </div>
             </form>
-        </main>
-    </div>
+      
+   
    
 
     <footer class="rodape">
@@ -55,5 +55,6 @@
                 </h5>
         </div>
     </footer>
+    <script src="./javascript/validacao-recupera-senha.js"></script>
 </body>
 </html>

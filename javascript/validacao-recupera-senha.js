@@ -7,7 +7,7 @@ document.querySelectorAll(".envia").forEach(function(button) {
     button.addEventListener("click", function(event) {
         event.preventDefault(); 
 
-        var confirmarCompra = confirm("E-mail de recuperação enviado com sucesso!");
+        var confirmarCompra = confirm("E-mail de recuperação, enviado com sucesso!");
 
     });
 });

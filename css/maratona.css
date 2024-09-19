@@ -1,0 +1,178 @@
+/*reset css*/
+
+@font-face {
+    font-family: playflix;
+    src: url(/fonte/BebasNeue-Regular.ttf);
+  
+   }
+ 
+   .pai-corrosel{
+    display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 76vw;
+       height: 5px;
+       margin-top: 100px;
+       margin-bottom: 100;  
+       
+   }
+   
+   
+   .titulo-carrosel{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 50vw;
+       height: 40px;
+       margin-top: 100px;
+       
+   }
+   
+   .hr-right{
+       width: 50%;
+       height: 2px;
+   }
+   
+   .hr-left{
+       width: 50%;
+       height: 2px;  
+       
+   }
+   
+   .text-hr{
+       padding: 0 10px;
+       font-weight: bold;
+       color: white;
+       white-space: nowrap;
+       font-size: 40px;
+     
+   }
+   
+  
+  .navbar {
+    
+    padding: 10px 20px;
+    position:static;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar-logo img {
+    height: 100px;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-item {
+    position: relative;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #fd0606;
+  
+  }
+  
+
+* {
+  margin: 0;
+   box-sizing: border-box;
+   font-family: playflix;
+}
+
+.filmes{
+    margin-top: 100px;
+    padding: 10px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+body{
+   /* background-image: url('/imagens/perfil/fundo.jpg') */
+   background-color: #1C1C1C;
+   
+}
+
+div{
+
+  
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+ 
+}
+.rodape{
+    margin-top: 20vh;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 5vh;
+    margin-bottom: 150px;
+}
+.botao_cabecalho{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    margin-left: auto;
+    height: 100%;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+.reveal-img {
+    transition: opacity 0.3s ease;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.rodape-texto {
+    width: 90%;
+    
+}
+
+.rodape-texto h5 {
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape{
+    margin-top: 20vh;
+    color: #fff;
+}
+
+.hr-footer{
+    width: 100%;
+    height: 1px;
+}

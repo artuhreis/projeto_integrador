@@ -66,12 +66,10 @@ form.addEventListener('submit', function(event) {
 
     // Valida o formulário e redireciona se tudo estiver válido
     if (validateForm()) {
-        window.location.href = '../perfil.html'; // Redireciona para a nova página se tudo estiver válido
+        window.location.href = 'perfil.html'; // Redireciona para a nova página se tudo estiver válido
     } else {
         console.log("Formulário inválido. Verifique os campos e tente novamente.");
     }
 });
 
-// Mostra e oculta popup de campo obrigatório
-//mostraOcultaPopup(senhaInput, senhaLabel);
-//mostraOcultaPopup(emailInput, emailLabel);
+

@@ -225,15 +225,15 @@
     }
    
     .produto-3 .card-imagem{
-    background-image:url('https://github.com/artuhreis/projeto_integrador/blob/main/imagens/produtos/Coisa_mais_linda.jpeg?raw=true');      
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Coisa_mais_linda.jpeg');      
     }
     
     .produto-4 .card-imagem{
-    background-image:url('https://github.com/artuhreis/projeto_integrador/blob/main/imagens/produtos/Durante_a_tormenta2.jpeg?raw=true');
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Durante_a_tormenta2.jpeg');
     }
     
     .produto-5 .card-imagem{
-    background-image:url('https://github.com/artuhreis/projeto_integrador/blob/main/imagens/produtos/Moxie.jpeg?raw=true');
+    background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Moxie.jpeg');
     }
       
     .produto-6 .card-imagem{

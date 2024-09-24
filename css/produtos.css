@@ -217,51 +217,121 @@
         border: 2px solid #fff;
       }
     .produto-1 .card-imagem{
+<<<<<<< HEAD
+        background-image: url('/imagens/produtos/anne.jpeg')
+        }
+    .produto-1 .card-imagem:hover{
+    background-image:url('/imagens/produtos/anne_sinopse.jpeg');
+    }
+    .produto-2 .card-imagem{
+    background-image:url('/imagens/produtos/Emily_in_Paris.jpeg'); 
+    }
+    .produto-2 .card-imagem:hover{
+    background-image:url('/imagens/produtos/Emily_in_Paris_sinopse3.jpeg');
+=======
         background-image: url('https://raw.githubusercontent.com/lucasscardoso/projeto_integrador/refs/heads/main/imagens/produtos/anne.jpeg ')
         }
    
     .produto-2 .card-imagem{
     background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Emily_in_Paris.jpeg'); 
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
    
     .produto-3 .card-imagem{
+<<<<<<< HEAD
+    background-image:url('/imagens/produtos/Coisa_mais_linda.jpeg');      
+    }
+    .produto-3 .card-imagem:hover{
+    background-image:url('');
+    } 
+    .produto-4 .card-imagem{
+    background-image:url('/imagens/produtos/Durante_a_tormenta2.jpeg');
+=======
     background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Coisa_mais_linda.jpeg');      
     }
     
     .produto-4 .card-imagem{
     background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Durante_a_tormenta2.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
     
     .produto-5 .card-imagem{
+<<<<<<< HEAD
+    background-image:url('/imagens/produtos/Moxie.jpeg');
+=======
     background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Moxie.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
       
     .produto-6 .card-imagem{
+<<<<<<< HEAD
+    background-image:url('/imagens/produtos/Era_uma_segunda_vez.jpeg');
+=======
     background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Era_uma_segunda_vez.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
       
     .produto-7 .card-imagem{
+<<<<<<< HEAD
+    background-image:url('/imagens/produtos/Fora_de_série.jpeg');
+=======
     background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Fora_de_s%C3%A9rie.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
     
     .produto-8 .card-imagem{
+<<<<<<< HEAD
+    background-image:url('/imagens/produtos/Good_girls.jpeg');
+    }
+    .produto-8 .card-imagem:hover{
+    background-image:url(imagem/);
+=======
     background-image:url('https://github.com/artuhreis/projeto_integrador/blob/main/imagens/produtos/Good_girls.jpeg?raw=true');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
    
     .produto-9 .card-imagem{
+<<<<<<< HEAD
+    background-image:url('/imagens/produtos/Não_nasci_para_agradar.jpeg');
+    }
+    .produto-9 .card-imagem:hover{
+    background-image:url(imagem/);
+=======
     background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/N%C3%A3o_nasci_para_agradar.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
     
     .produto-10 .card-imagem{
+<<<<<<< HEAD
+    background-image:url('/imagens/produtos/Eu_não_sou_um_homem_fácil.jpeg');
+    }
+    .produto-10 .card-imagem:hover{
+    background-image:url(imagem/);
+=======
     background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Eu_n%C3%A3o_sou_um_homem_f%C3%A1cil.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
     
     .produto-11 .card-imagem{
+<<<<<<< HEAD
+    background-image:url('/imagens/produtos/Boys.jpeg');
+    }
+    .produto-11 .card-imagem:hover{
+    background-image:url(imagem/);
+=======
     background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/Boys.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
     
     .produto-12 .card-imagem{
+<<<<<<< HEAD
+    background-image:url('/imagens/produtos/A_boa_mentira.jpeg');
+    }
+    .produto-12 .card-imagem:hover{
+    background-image:url(imagem/p);
+=======
     background-image:url('https://raw.githubusercontent.com/artuhreis/projeto_integrador/main/imagens/produtos/A_boa_mentira.jpeg');
+>>>>>>> c56e633bcb32b843b221c13a5925a5c2e99f7dce
     }
     
   

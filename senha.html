@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/senha.css">
     <link rel="icon" href="./imagens/favicon_io/filme.png">
     <title>Recuperar senha
-
+    
     </title>
     
 </head>
@@ -37,11 +37,17 @@
                     <input type="email" id="email" placeholder="Digite seu E-mail"> <br>
                     <p id="email-helper" class="helper-text"></p>
                     <br>
-                    <a href="login.html" class="envia"> Enviar </a>
+                    <a href="login.html" class="envia" id="envia-link"> Enviar </a>
+                    
                 </div>
             </form>
       
-   
+            <script>
+                document.getElementById("envia-link").addEventListener('onclick', function(event){
+                event.preventDefault();
+                alert("Enviado");
+            })
+            </script>
    
 
     <footer class="rodape">
@@ -55,6 +61,6 @@
                 </h5>
         </div>
     </footer>
-    <script src="./javascript/validacao-recupera-senha.js"></script>
+    <script src="./javascript/validacao-recupera-senha.js"> </script>
 </body>
 </html>

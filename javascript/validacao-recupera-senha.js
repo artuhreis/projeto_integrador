@@ -3,6 +3,15 @@ let emailInput = document.getElementById("email");
 let emailLabel = document.querySelector('label[for="email"]');
 let emailHelper = document.getElementById("email-helper");
 
+document.querySelectorAll(".envia").forEach(function(button) {
+    button.addEventListener("click", function(event) {
+        event.preventDefault(); 
+
+        var confirmarCompra = confirm("E-mail de recuperação enviado com sucesso!");
+
+    });
+})
+
 
 
 // ---------- VALIDAÇÃO FORM ---------- //

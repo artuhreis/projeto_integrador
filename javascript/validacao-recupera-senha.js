@@ -10,7 +10,7 @@ document.querySelectorAll(".envia").forEach(function(button) {
         var confirmarCompra = confirm("E-mail de recuperação enviado com sucesso!");
 
     });
-});
+})
 
 
 

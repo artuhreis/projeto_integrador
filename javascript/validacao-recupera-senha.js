@@ -36,7 +36,8 @@ function validateForm() {
     return isEmailValid; // Retorna true se ambos os campos forem válidos
 }
 
-// Adiciona o evento de submit ao formulário
+// Adiciona o evento de submit ao formuláriols
+
 form.addEventListener('submit', function(event) {
     // Previne o envio padrão do formulário
     event.preventDefault();

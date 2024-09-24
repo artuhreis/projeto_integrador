@@ -28,7 +28,7 @@ let dataHelper = document.getElementById("data-helper");
 
 // Função que valida senha
 function validSenha() {
-    let valor = senhaInput.value;
+    let valor = senhaInput.value; 
     let valorSemEspacos = valor.trim();
     if (valor === "" || valorSemEspacos.length < 8) {
         senhaInput.classList.remove("correct");
@@ -106,10 +106,9 @@ function validEmail() {
     }
 }
 
+
+
 //VALIDA NOME
-
-
-
 function validNome() {
     let valorNome = nomeInput.value;
     
@@ -189,7 +188,7 @@ dataInput.addEventListener("input",validDataNascimento);
 function validateForm() {
     let isSenhaValid = validSenha();
     let isEmailValid = validEmail();
-       let isTelValid = validTel();
+    let isTelValid = validTel();
     let isCpfValid = validCpf();
     let isNomeValid = validNome();
     let isDataNascimentoValid = validDataNascimento();
